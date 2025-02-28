@@ -6,7 +6,7 @@ document.getElementById('login-button')
         const convertedPin = parseInt(pin)
         if(accountNumber.length == 11){
             if(convertedPin === 1234){
-                window.location.href = 'second.html'
+                window.location.href = './html files/second.html'
             }else {
                 alert('enter a valid pin')
             }
