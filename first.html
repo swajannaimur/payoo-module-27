@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme = light>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-slate-800">
+<section class= "min-h-screen">
+    <header class="w-2/4 mx-auto bg-white p-6">
+        <!-- image section -->
+        <div class=" flex items-center justify-center">
+            <img src="./assets/bg.png" alt="" class="relative w-48">
+            <img src="./assets/Group.png" alt="" class="absolute mb-24 w-14">
+        </div>
+        <!--login form -->
+        <div class="min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body py-28">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold text-lg">Mobile Number</span>
+                    </label>
+                    <input id="account-number" type="text" placeholder="Enter Your Mobile Number" class="input input-bordered rounded-[32px]" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold text-lg">4-digit PIN</span>
+                    </label>
+                    <input id="pin" type="password" placeholder="Enter your 4 digit pin" class="input input-bordered rounded-[32px]" required />
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="login-button" class="btn btn-primary rounded-[32px] text-lg">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </header>
+</section>
+
+    <script src="./script/first.js"></script>
+</body>
+
+</html>
